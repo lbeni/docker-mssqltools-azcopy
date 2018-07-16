@@ -5,7 +5,7 @@ MAINTAINER Leandro Beni <leandrobbeni@gmail.com>
 # Accept licence for Silent installation
 ENV ACCEPT_EULA=Y
 
-# Install sql-tools and dependencies
+# Install mssql-tools and dependencies
 RUN apt-get update && apt-get -y install gnupg apt-transport-https locales && \
     curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
     curl https://packages.microsoft.com/config/debian/9/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
