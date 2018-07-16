@@ -1,2 +1,2 @@
 # docker-mssqltools-azcopy
-Docker images for mssql-tools with azcopy installed
+Docker images for mssql-tools with azcopy installed.
